@@ -3,8 +3,8 @@
 int main()
 {
 	
-	int n_numbers, i, j, numbers_sum = 0, input_numbers[100];
-	 
+	int n_numbers, i, j;
+	float input_numbers[100], numbers_sum = 0; 
 	
  	do
  	{	
@@ -16,7 +16,7 @@ int main()
 	{
 		for(j=0; j<n_numbers; j++)
 		{
-			scanf("%d ",&input_numbers[j]);
+			scanf("%f ",&input_numbers[j]);
 			if (j >= i) {
 			numbers_sum += input_numbers[j];
 			}
@@ -26,7 +26,7 @@ int main()
 
 
 	
-	printf("%d\n",numbers_sum);
+	printf("%f",numbers_sum);
 
 
 	return 0;
