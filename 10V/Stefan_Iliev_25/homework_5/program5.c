@@ -2,20 +2,22 @@
 
 int main() 
 {
-	int n=21,j,i,sum=0,div=1;
+	int j,i,n=21; float sum=0,div=1;
 	
-	do {
+	
 		scanf("%d",&n);
-	} while (n<0 || n>20);
-
-	for (i=1;i<n;i++)
+	if (n>=0 && n<=20)
 	{
-		for (j = 1; j < i;j++) 
+		for (i=1;i<=n;i++)
 		{
-			div = div*j;
+			div = 1;
+			for (j = 1; j <= i;j++) 
+			{
+				div = div*j;
+			}
+			sum = sum + 1/div;	
 		}
-		sum = sum + 1/div;	
 	}
-	printf("%d\n",sum);
+	printf("%f\n",sum);
 	return 0;
 }
