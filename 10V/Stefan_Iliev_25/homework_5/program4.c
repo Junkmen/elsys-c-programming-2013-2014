@@ -18,7 +18,7 @@ do {
 				sum = (x*1)+(y*2)+(z*5);
 	//Don't mind this, debugging purpouses 	printf("%d\n",sum);
 				if (sum == m) {
-					printf("Yes: %d, %d, %d\n", x, y, z);
+					printf("Yes: %d, %d, %d", x, y, z);
 					success = 1;
 					break;
 				}
