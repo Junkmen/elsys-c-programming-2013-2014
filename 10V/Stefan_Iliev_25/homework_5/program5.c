@@ -18,6 +18,6 @@ int main()
 			sum = sum + 1/div;	
 		}
 	}
-	printf("%f\n",sum);
+	printf("%f",sum);
 	return 0;
 }
