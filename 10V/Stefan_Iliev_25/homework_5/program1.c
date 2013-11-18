@@ -20,7 +20,7 @@ int main()
 	
 	}
 	for (i = 0;i<13;i++) decrypt(&input[i]);
-	printf("%s\n",input);
+	printf("%s",input);
 
 
 
