@@ -19,7 +19,6 @@ int main()
 		for (j = 0; j < 4; j++) {
 			printf("%d ",output[i][j]);
 		}
-	printf("\n");
 	}
 
 
