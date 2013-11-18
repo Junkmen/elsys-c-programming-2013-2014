@@ -29,7 +29,7 @@ do {
  ++z;
 } while (z <= m3);
 	if (!success) { 
-		printf("No\n");
+		printf("No");
 	}
 return 0;
 }
